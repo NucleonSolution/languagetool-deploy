@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   languagetool:
-    image: languagetool/languagetool
+    image: languagetool-org/languagetool
     ports:
       - "8010:8010"
     restart: always
